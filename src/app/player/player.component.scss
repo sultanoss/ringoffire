@@ -1,19 +1,19 @@
-.player{
-    display: flex;
-    align-items: center;
-    width: 300px;
-    background-color: orangered;
-    border-bottom-left-radius: 50px;
-    border-top-left-radius: 50px;
-    padding: 6px;
+.player {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  background-color: orangered;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  padding: 6px;
 
-    img{
-        width: 100px;
-        height: 100px;
-    }
+  img {
+    width: 100px;
+    height: 100px;
+  }
 
-    span{
-        margin-left: 20px;
-        font-size: 32px;
-    }
+  span {
+    margin-left: 20px;
+    font-size: 32px;
+  }
 }

@@ -1,6 +1,6 @@
 export class Game {
 
-    public players: string[] = ['player1','player2','player3'];
+    public players: string[] = [];
     public stack: string[] = [];
     public playedCards: string[] = [];
     currentPlayer: Number = 0;

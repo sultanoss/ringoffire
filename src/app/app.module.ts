@@ -15,6 +15,9 @@ import {MatInputModule} from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
 import { GameInfoComponent } from './game-info/game-info.component';
 import {MatCardModule} from '@angular/material/card';
+import { AngularFireModule } from '@angular/fire/compat';
+import { environment } from '../environments/environment';
+
 
 
 
@@ -26,7 +29,8 @@ import {MatCardModule} from '@angular/material/card';
     GameComponent,
     PlayerComponent,
     DialogAddPlayerComponent,
-    GameInfoComponent
+    GameInfoComponent,
+ 
   ],
   imports: [
     BrowserModule,
@@ -37,7 +41,10 @@ import {MatCardModule} from '@angular/material/card';
     MatDialogModule,
     MatInputModule,
     FormsModule,
-    MatCardModule
+    MatCardModule,
+    BrowserModule,
+    AngularFireModule.initializeApp(environment.firebase)
+ 
   ],
   providers: [],
   bootstrap: [AppComponent]

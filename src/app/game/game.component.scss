@@ -21,7 +21,7 @@
 
 .pick-card {
   animation: pick-card-animation 1s ease-in-out;
-  transform: scale(1.3) translateX(140px) translateY(-180px) rotate(-10deg);
+  transform: scale(1.3) translateX(140px) translateY(-195px) rotate(-10deg);
 }
 
 @keyframes pick-card-animation {
@@ -37,13 +37,13 @@
   }
 
   100% {
-    transform: scale(1.3) translateX(140px) translateY(-180px) rotate(-10deg);
+    transform: scale(1.3) translateX(140px) translateY(-195px) rotate(-10deg);
   }
 }
 
 .played-card {
-  right: 25px;
-  transform: scale(1.3) translateX(140px) translateY(-180px) rotate(-10deg);
+  right: 70px;
+  transform: scale(1.3) translateX(140px) translateY(-195px) rotate(-10deg);
 }
 
 .player-position {
@@ -53,8 +53,8 @@
 
 .btn-add {
   position: absolute;
-  right: 32px;
-  bottom: 32px;
+  right: 6px;
+  bottom: 43px;
 }
 
 .pin-bottom {
@@ -62,4 +62,17 @@
   bottom: 32px;
   left: 100px;
   right: 100px;
+}
+
+.all-players-mobile{
+
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 12%;
+  transform: translate(-50%,-50%);
+  flex-wrap: wrap;
+  width: 100%;
+  
 }

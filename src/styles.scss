@@ -1,7 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
-body{
-
-    margin: 0;
+body {
+  margin: 0;
+  @media (max-width: 768px) {
+    .hide-mobile {
+      display: none;
+    }
+  }
+  @media (min-width: 768px) {
+    .hide-desktop {
+      display: none;
+    }
+  }
 }
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

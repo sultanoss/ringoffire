@@ -3,7 +3,8 @@
   <p>Please enter the name of the Player</p>
   <mat-form-field>
     <mat-label>Name</mat-label>
-    <input matInput [(ngModel)]="name">
+    <input maxlength="6" matInput [(ngModel)]="name">
+    <div><p>*max.6 Buchstaben</p></div>
   </mat-form-field>
 </div>
 <div mat-dialog-actions>
